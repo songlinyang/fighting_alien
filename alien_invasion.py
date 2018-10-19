@@ -33,8 +33,10 @@ def run_game():
     aliens = Group()
 
     #创建外星人
-    alien = Alien(game_setting,screen)
+    #alien = Alien(game_setting,screen)
 
+    # 加入外星人群
+    gf.create_fleet(game_setting=game_setting, screen=screen, aliens=aliens, ship=ship)
     #开始游戏主循环
     while True:
 
@@ -44,8 +46,6 @@ def run_game():
         ship.update(speed=game_setting.ship_speed_factor)
         #更新子弹飞行轨迹
         gf.update_bullets(bullets=bullets)
-        #加入外星人群
-        gf.create_fleet(game_setting=game_setting,screen=screen,aliens=aliens)
         #每次循环时都重绘屏幕
         gf.update_screen(screen=screen,game_setting=game_setting,ship=ship,bullets=bullets,aliens=aliens)
 

@@ -70,13 +70,16 @@ def update_screen(screen,ship,game_setting,bullets,aliens:Group):
 """
 创建一群外星人
 """
-def create_fleet(game_setting:Setting,screen,aliens):
+def create_fleet(game_setting:Setting,screen,aliens,ship):
     alien = Alien(game_setting,screen)
     alien_width = alien.rect.width
     alien_number = get_number_aliens(game_setting,alien_width)
+    aliens_rows = get_number_rows(game_setting,ship.rect.height,alien.rect.height)
+    for row in range(aliens_rows):
+        for number in range(alien_number):
+            print("第",row,"行",number)
+            create_alien(game_setting,screen,number,aliens,row)
 
-    for alien_number in range(alien_number):
-        create_alien(game_setting,screen,alien_number,aliens)
 
 """
 计算出外星人个数
@@ -86,15 +89,27 @@ def get_number_aliens(game_setting,alien_width):
     # 计算出可用的空间，来计算出一行可以放多少外星人
     usable_space = game_setting.screen_width - (alien_width * 2)
     alien_number = int(usable_space / (alien_width * 2))
+    print("外星人数：",alien_number)
     return alien_number
 
 
-def create_alien(game_setting,screen,alien_number,aliens):
+def create_alien(game_setting,screen,alien_number,aliens,row):
     alien = Alien(game_setting, screen)
     alien_width = alien.rect.width
     alien.x = alien_width + 2 * alien_width * alien_number
     alien.rect.x = alien.x
+    alien.rect.y = alien.rect.height + 2 * alien.rect.height * row
     aliens.add(alien)
+
+"""
+计算出可以容纳多少行外星人横队
+"""
+def get_number_rows(game_setting,ship_height,alien_height):
+    """计算出屏幕可以容纳多少外星人"""
+    available_space_y = game_setting.screen_height - (3*alien_height) - ship_height
+    number_rows = int(available_space_y / (alien_height*2))
+    return number_rows
+
 
 
 """
