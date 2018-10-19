@@ -6,6 +6,7 @@ import pygame
 from setting import Setting
 from ship import Ship
 from game_functions import check_event,update_screen
+from bullet import Bullet
 
 def run_game():
     #初始化银河系背景
@@ -20,6 +21,9 @@ def run_game():
     #创建飞船
     ship = Ship(screen)
 
+    #创建子弹
+    bullet = Bullet(game_setting,screen,ship)
+
     #开始游戏主循环
     while True:
 
@@ -27,7 +31,7 @@ def run_game():
         check_event(ship=ship)
 
         #每次循环时都重绘屏幕
-        update_screen(screen=screen,game_setting=game_setting,ship=ship)
+        update_screen(screen=screen,game_setting=game_setting,ship=ship,bullet=bullet)
 
 
 

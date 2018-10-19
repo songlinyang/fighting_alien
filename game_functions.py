@@ -41,7 +41,7 @@ def check_event(ship):
 处理绘制
 :return
 """
-def update_screen(screen,ship,game_setting):
+def update_screen(screen,ship,game_setting,bullet):
     # 绘制银河系H234行星轨迹
     screen.fill(game_setting.bg_color)
     # 绘制飞船
@@ -49,6 +49,10 @@ def update_screen(screen,ship,game_setting):
 
     # 飞船切换成自定义飞行模式
     ship.update(speed=game_setting.ship_speed_factor)
+
+    # 飞船加载加农炮
+    bullet.draw_bullet()
+    bullet.update()
 
     # 让绘制显示
     pygame.display.flip()
