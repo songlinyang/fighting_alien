@@ -4,22 +4,22 @@
 from pygame.sprite import Sprite
 import pygame
 class Bullet(Sprite):
-    def __init__(self,game_setting,screen,ship):
+    def __init__(self,setting,screen,ship):
         super().__init__()
         self.screen = screen
 
         #在(0,0)处创建一个表示子弹的矩形，再设置正确的位置
         #确定子弹形状
-        self.rect = pygame.Rect(0,0,5,10)
+        self.rect = pygame.Rect(0,0,setting.bullet_width,setting.bullet_heigh)
         #确定子弹位置
         self.rect.centerx = ship.rect.centerx
         self.rect.top = ship.rect.top
 
         self.y = float(self.rect.y)
         #定制子弹的颜色
-        self.color = (60,60,60)
+        self.color = setting.bullet_color
         #定制子弹的速度
-        self.speed_factor = 1
+        self.speed_factor = setting.bullet_speed
 
     #绘制子弹
     def draw_bullet(self):

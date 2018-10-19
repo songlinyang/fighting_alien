@@ -15,3 +15,11 @@ class Setting():
 
         #控制飞船速度
         self.ship_speed_factor = 1.5
+
+        #子弹的大小
+        self.bullet_width = 5
+        self.bullet_heigh = 10
+        #子弹的颜色
+        self.bullet_color = (60,60,60)
+        #子弹的移动速度
+        self.bullet_speed = 1
