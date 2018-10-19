@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6db9e00-c03e-449c-904f-c47d530b78f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bullet.py" beforeDir="false" afterPath="$PROJECT_DIR$/bullet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,8 +14,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/AlienTrespass$alien_invasion.coverage" NAME="alien_invasion Coverage Results" MODIFIED="1539944883657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlienTrespass$alien_invasion.coverage" NAME="alien_invasion Coverage Results" MODIFIED="1539950906255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AlienTrespass$ship.coverage" NAME="ship Coverage Results" MODIFIED="1539941949701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlienTrespass$game_functions.coverage" NAME="game_functions Coverage Results" MODIFIED="1539950114668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="2038741611">
@@ -37,39 +40,39 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4433" />
+          <entry key="py" value="5609" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4433" />
+          <entry key="Python" value="5609" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/alien_invasion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="247">
+              <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
               <folding>
                 <element signature="e#17#27#0" expanded="true" />
-                <marker date="1539944452000" expanded="true" signature="187:192" ph="..." />
+                <marker date="1539950965000" expanded="true" signature="226:231" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bullet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="238">
+              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding>
                 <element signature="e#14#46#0" expanded="true" />
-                <marker date="1539946382000" expanded="true" signature="82:87" ph="..." />
+                <marker date="1539948788000" expanded="true" signature="82:87" ph="..." />
               </folding>
             </state>
           </provider>
@@ -78,13 +81,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="282">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
               <folding>
-                <marker date="1539944875000" expanded="true" signature="339:532" ph="..." />
-                <marker date="1539944875000" expanded="true" signature="554:555" ph="..." />
-                <marker date="1539944875000" expanded="true" signature="554:752" ph="..." />
-                <marker date="1539944875000" expanded="true" signature="824:825" ph="..." />
+                <marker date="1539950798000" expanded="true" signature="632:825" ph="..." />
+                <marker date="1539950798000" expanded="true" signature="875:876" ph="..." />
+                <marker date="1539950798000" expanded="true" signature="875:1113" ph="..." />
+                <marker date="1539950798000" expanded="true" signature="1186:1187" ph="..." />
               </folding>
             </state>
           </provider>
@@ -93,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ship.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="237">
+              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
               <folding>
                 <marker date="1539941957000" expanded="true" signature="42:43" ph="..." />
                 <marker date="1539941957000" expanded="true" signature="42:44" ph="..." />
@@ -120,10 +123,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="282">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding>
-                <marker date="1539941149000" expanded="true" signature="40:45" ph="..." />
+                <marker date="1539946907000" expanded="true" signature="40:45" ph="..." />
               </folding>
             </state>
           </provider>
@@ -172,11 +175,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/setting.py" />
         <option value="$PROJECT_DIR$/ship.py" />
-        <option value="$PROJECT_DIR$/alien_invasion.py" />
-        <option value="$PROJECT_DIR$/game_functions.py" />
+        <option value="$PROJECT_DIR$/setting.py" />
         <option value="$PROJECT_DIR$/bullet.py" />
+        <option value="$PROJECT_DIR$/game_functions.py" />
+        <option value="$PROJECT_DIR$/alien_invasion.py" />
       </list>
     </option>
   </component>
@@ -205,11 +208,6 @@
             <path>
               <item name="AlienTrespass" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlienTrespass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlienTrespass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlienTrespass" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlienTrespass" type="b2602c69:ProjectViewProjectNode" />
@@ -262,6 +260,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="game_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AlienTrespass" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game_functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ship" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AlienTrespass" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,10 +307,12 @@
     <list>
       <item itemvalue="Python.alien_invasion" />
       <item itemvalue="Python.ship" />
+      <item itemvalue="Python.game_functions" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.alien_invasion" />
+        <item itemvalue="Python.game_functions" />
         <item itemvalue="Python.ship" />
       </list>
     </recent_temporary>
@@ -319,11 +341,11 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32852563" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32852563" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32852563" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32852563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39903846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -385,8 +407,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ship.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="237">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding>
             <marker date="1539941957000" expanded="true" signature="42:43" ph="..." />
             <marker date="1539941957000" expanded="true" signature="42:44" ph="..." />
@@ -400,45 +422,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="282">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
-            <marker date="1539941149000" expanded="true" signature="40:45" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alien_invasion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#17#27#0" expanded="true" />
-            <marker date="1539944452000" expanded="true" signature="187:192" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <marker date="1539944875000" expanded="true" signature="339:532" ph="..." />
-            <marker date="1539944875000" expanded="true" signature="554:555" ph="..." />
-            <marker date="1539944875000" expanded="true" signature="554:752" ph="..." />
-            <marker date="1539944875000" expanded="true" signature="824:825" ph="..." />
+            <marker date="1539946907000" expanded="true" signature="40:45" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bullet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="238">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding>
             <element signature="e#14#46#0" expanded="true" />
-            <marker date="1539946382000" expanded="true" signature="82:87" ph="..." />
+            <marker date="1539948788000" expanded="true" signature="82:87" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <marker date="1539950798000" expanded="true" signature="632:825" ph="..." />
+            <marker date="1539950798000" expanded="true" signature="875:876" ph="..." />
+            <marker date="1539950798000" expanded="true" signature="875:1113" ph="..." />
+            <marker date="1539950798000" expanded="true" signature="1186:1187" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alien_invasion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+          <folding>
+            <element signature="e#17#27#0" expanded="true" />
+            <marker date="1539950965000" expanded="true" signature="226:231" ph="..." />
           </folding>
         </state>
       </provider>

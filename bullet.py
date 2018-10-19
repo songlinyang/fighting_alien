@@ -31,3 +31,4 @@ class Bullet(Sprite):
         """子弹向上移动"""
         self.y -= self.speed_factor
         self.rect.y = self.y
+
