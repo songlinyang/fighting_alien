@@ -28,6 +28,7 @@ class Setting():
         #子弹的颜色
         self.bullet_color = (60,60,60)
         #子弹的移动速度
-        self.bullet_speed = 1
+        self.bullet_speed = 5
         #限制子弹的数量
         self.bullets_allowed = 3
+
