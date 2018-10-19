@@ -1,8 +1,7 @@
 """
 重构主运行方法的主逻辑
 """
-import pygame
-
+from setting import Setting
 """
 处理按钮，键盘事件
 :return 
@@ -11,7 +10,7 @@ import pygame
 import sys
 from bullet import Bullet
 
-def check_keydown_event(event,game_setting,screen,ship,bullets):
+def check_keydown_event(event,game_setting:Setting,screen,ship,bullets):
     #判断用户按下键盘
     if event.type == pygame.KEYDOWN:
         #按下右方向->
@@ -22,11 +21,7 @@ def check_keydown_event(event,game_setting,screen,ship,bullets):
             ship.moving_left = True
         #按下空格键
         elif event.key == pygame.K_SPACE:
-            #按一次，新增新子弹
-            new_bullet = Bullet(game_setting,screen,ship)
-            bullets.add(new_bullet)
-
-
+            fire_bullet(bullets,game_setting,screen,ship)
 
 
 
@@ -60,14 +55,33 @@ def update_screen(screen,ship,game_setting,bullets):
     # 绘制飞船
     ship.bliteme()
 
-
-    # bullet.draw_bullet()
-
     # 绘制飞船的加农炮子弹
     for bullet in bullets.sprites():
         bullet.draw_bullet()
 
-
-
     #让绘制显示
     pygame.display.flip()
+
+"""
+更新处理子弹移动轨迹
+:return
+"""
+def update_bullets(bullets):
+    # 子弹的飞行轨迹
+    bullets.update()
+
+    # 删除已消失的子弹
+    for bullet in bullets.copy():
+        if bullet.rect.bottom <= 0:
+            bullets.remove(bullet)
+        # print(len(bullets))
+
+"""
+填充子弹，射击
+:return
+"""
+def fire_bullet(bullets,game_setting,screen,ship):
+    if len(bullets) < game_setting.bullets_allowed:
+        # 按一次，新增新子弹
+        new_bullet = Bullet(game_setting, screen, ship)
+        bullets.add(new_bullet)

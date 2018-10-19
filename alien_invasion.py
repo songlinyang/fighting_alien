@@ -5,7 +5,7 @@ import sys
 import pygame
 from setting import Setting
 from ship import Ship
-from game_functions import check_event,update_screen
+import game_functions as gf
 from bullet import Bullet
 from pygame.sprite import Sprite,Group
 
@@ -32,22 +32,13 @@ def run_game():
     while True:
 
         #监听鼠标键盘输入
-        check_event(ship=ship,game_setting=game_setting,screen=screen,bullets=bullets)
-
+        gf.check_event(ship=ship,game_setting=game_setting,screen=screen,bullets=bullets)
         # 飞船切换成自定义飞行模式
         ship.update(speed=game_setting.ship_speed_factor)
-        # 子弹的飞行轨迹
-        bullets.update()
-
-        #删除已消失的子弹
-        for bullet in bullets.copy():
-            if bullet.rect.bottom <= 0:
-                bullets.remove(bullet)
-            print(len(bullets))
-
-
+        #更新子弹飞行轨迹
+        gf.update_bullets(bullets=bullets)
         #每次循环时都重绘屏幕
-        update_screen(screen=screen,game_setting=game_setting,ship=ship,bullets=bullets)
+        gf.update_screen(screen=screen,game_setting=game_setting,ship=ship,bullets=bullets)
 
 
 

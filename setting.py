@@ -13,9 +13,15 @@ class Setting():
         #银河系背景颜色
         self.bg_color = (230,230,230)
 
+        """
+        飞船的设置
+        """
         #控制飞船速度
         self.ship_speed_factor = 1.5
 
+        """
+        子弹的设置
+        """
         #子弹的大小
         self.bullet_width = 5
         self.bullet_heigh = 10
@@ -23,3 +29,5 @@ class Setting():
         self.bullet_color = (60,60,60)
         #子弹的移动速度
         self.bullet_speed = 1
+        #限制子弹的数量
+        self.bullets_allowed = 3
