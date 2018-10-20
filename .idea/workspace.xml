@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6db9e00-c03e-449c-904f-c47d530b78f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/setting.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +13,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/AlienTrespass$alien.coverage" NAME="alien Coverage Results" MODIFIED="1540042748654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AlienTrespass$alien_invasion.coverage" NAME="alien_invasion Coverage Results" MODIFIED="1540044925990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlienTrespass$alien_invasion.coverage" NAME="alien_invasion Coverage Results" MODIFIED="1540046415828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AlienTrespass$ship.coverage" NAME="ship Coverage Results" MODIFIED="1539941949701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AlienTrespass$game_functions.coverage" NAME="game_functions Coverage Results" MODIFIED="1539969913879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlienTrespass$game_functions.coverage" NAME="game_functions Coverage Results" MODIFIED="1540045648568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="2038741611">
@@ -46,12 +43,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="9999" />
+          <entry key="py" value="10339" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="9999" />
+          <entry key="Python" value="10339" />
         </counts>
       </usages-collector>
     </session>
@@ -65,7 +62,7 @@
               <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="e#17#27#0" expanded="true" />
-                <marker date="1540044831000" expanded="true" signature="218:223" ph="..." />
+                <marker date="1540046415000" expanded="true" signature="218:223" ph="..." />
               </folding>
             </state>
           </provider>
@@ -84,22 +81,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="151" column="14" lean-forward="true" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
+            <state relative-caret-position="66">
+              <caret line="121" column="4" lean-forward="true" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="71" />
               <folding>
                 <element signature="e#20#47#0" expanded="true" />
-                <marker date="1540044815000" expanded="true" signature="672:674" ph="..." />
-                <marker date="1540044815000" expanded="true" signature="708:901" ph="..." />
-                <marker date="1540044815000" expanded="true" signature="951:952" ph="..." />
-                <marker date="1540044815000" expanded="true" signature="951:1189" ph="..." />
-                <marker date="1540044815000" expanded="true" signature="1275:1276" ph="..." />
-                <marker date="1540044815000" expanded="true" signature="2651:2847" ph="..." />
-                <marker date="1540044815000" expanded="true" signature="2902:2903" ph="..." />
-                <marker date="1540044815000" expanded="true" signature="3650:3780" ph="..." />
-                <marker date="1540044815000" expanded="true" signature="3961:3982" ph="..." />
+                <marker date="1540046415000" expanded="true" signature="672:674" ph="..." />
+                <marker date="1540046415000" expanded="true" signature="708:901" ph="..." />
+                <marker date="1540046415000" expanded="true" signature="951:952" ph="..." />
+                <marker date="1540046415000" expanded="true" signature="951:1189" ph="..." />
+                <marker date="1540046415000" expanded="true" signature="1275:1276" ph="..." />
+                <marker date="1540046415000" expanded="true" signature="2669:2865" ph="..." />
+                <marker date="1540046415000" expanded="true" signature="2964:2965" ph="..." />
+                <marker date="1540046415000" expanded="true" signature="3936:4066" ph="..." />
+                <marker date="1540046415000" expanded="true" signature="4247:4268" ph="..." />
               </folding>
             </state>
           </provider>
@@ -108,12 +105,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alien.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="249">
+              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding>
                 <element signature="e#16#29#0" expanded="true" />
-                <marker date="1540044006000" expanded="true" signature="111:116" ph="..." />
-                <marker date="1540044006000" expanded="true" signature="562:571" ph="..." />
+                <marker date="1540044925000" expanded="true" signature="111:116" ph="..." />
+                <marker date="1540044925000" expanded="true" signature="562:571" ph="..." />
               </folding>
             </state>
           </provider>
@@ -141,13 +138,13 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="118">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
-                <marker date="1540044186000" expanded="true" signature="40:45" ph="..." />
+                <marker date="1540046672000" expanded="true" signature="40:45" ph="..." />
               </folding>
             </state>
           </provider>
@@ -189,6 +186,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>create</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -199,9 +201,9 @@
         <option value="$PROJECT_DIR$/bullet.py" />
         <option value="$PROJECT_DIR$/ship.py" />
         <option value="$PROJECT_DIR$/alien.py" />
-        <option value="$PROJECT_DIR$/setting.py" />
         <option value="$PROJECT_DIR$/game_functions.py" />
         <option value="$PROJECT_DIR$/alien_invasion.py" />
+        <option value="$PROJECT_DIR$/setting.py" />
       </list>
     </option>
   </component>
@@ -364,8 +366,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.alien_invasion" />
-        <item itemvalue="Python.alien" />
         <item itemvalue="Python.game_functions" />
+        <item itemvalue="Python.alien" />
         <item itemvalue="Python.ship" />
       </list>
     </recent_temporary>
@@ -473,6 +475,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/alien.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding>
+            <element signature="e#16#29#0" expanded="true" />
+            <marker date="1540044925000" expanded="true" signature="111:116" ph="..." />
+            <marker date="1540044925000" expanded="true" signature="562:571" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bullet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -484,14 +498,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alien.py">
+    <entry file="file://$PROJECT_DIR$/game_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        <state relative-caret-position="66">
+          <caret line="121" column="4" lean-forward="true" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="71" />
           <folding>
-            <element signature="e#16#29#0" expanded="true" />
-            <marker date="1540044006000" expanded="true" signature="111:116" ph="..." />
-            <marker date="1540044006000" expanded="true" signature="562:571" ph="..." />
+            <element signature="e#20#47#0" expanded="true" />
+            <marker date="1540046415000" expanded="true" signature="672:674" ph="..." />
+            <marker date="1540046415000" expanded="true" signature="708:901" ph="..." />
+            <marker date="1540046415000" expanded="true" signature="951:952" ph="..." />
+            <marker date="1540046415000" expanded="true" signature="951:1189" ph="..." />
+            <marker date="1540046415000" expanded="true" signature="1275:1276" ph="..." />
+            <marker date="1540046415000" expanded="true" signature="2669:2865" ph="..." />
+            <marker date="1540046415000" expanded="true" signature="2964:2965" ph="..." />
+            <marker date="1540046415000" expanded="true" signature="3936:4066" ph="..." />
+            <marker date="1540046415000" expanded="true" signature="4247:4268" ph="..." />
           </folding>
         </state>
       </provider>
@@ -502,36 +523,17 @@
           <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="e#17#27#0" expanded="true" />
-            <marker date="1540044831000" expanded="true" signature="218:223" ph="..." />
+            <marker date="1540046415000" expanded="true" signature="218:223" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/setting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="118">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
-            <marker date="1540044186000" expanded="true" signature="40:45" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="151" column="14" lean-forward="true" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
-          <folding>
-            <element signature="e#20#47#0" expanded="true" />
-            <marker date="1540044815000" expanded="true" signature="672:674" ph="..." />
-            <marker date="1540044815000" expanded="true" signature="708:901" ph="..." />
-            <marker date="1540044815000" expanded="true" signature="951:952" ph="..." />
-            <marker date="1540044815000" expanded="true" signature="951:1189" ph="..." />
-            <marker date="1540044815000" expanded="true" signature="1275:1276" ph="..." />
-            <marker date="1540044815000" expanded="true" signature="2651:2847" ph="..." />
-            <marker date="1540044815000" expanded="true" signature="2902:2903" ph="..." />
-            <marker date="1540044815000" expanded="true" signature="3650:3780" ph="..." />
-            <marker date="1540044815000" expanded="true" signature="3961:3982" ph="..." />
+            <marker date="1540046672000" expanded="true" signature="40:45" ph="..." />
           </folding>
         </state>
       </provider>

@@ -80,6 +80,18 @@ def create_fleet(game_setting:Setting,screen,aliens,ship):
             create_alien(game_setting,screen,number,aliens,row)
 
 """
+创建一个外星人
+"""
+def create_alien(game_setting,screen,alien_number,aliens,row):
+    alien = Alien(game_setting, screen)
+    alien_width = alien.rect.width
+    alien.x = alien_width + 2 * alien_width * alien_number
+    alien.rect.x = alien.x
+    alien.rect.y = alien.rect.height + 2 * alien.rect.height * row
+    aliens.add(alien)
+
+
+"""
 计算出外星人个数
 :return 外星人个数
 """
@@ -91,13 +103,6 @@ def get_number_aliens(game_setting,alien_width):
     return alien_number
 
 
-def create_alien(game_setting,screen,alien_number,aliens,row):
-    alien = Alien(game_setting, screen)
-    alien_width = alien.rect.width
-    alien.x = alien_width + 2 * alien_width * alien_number
-    alien.rect.x = alien.x
-    alien.rect.y = alien.rect.height + 2 * alien.rect.height * row
-    aliens.add(alien)
 
 """
 计算出可以容纳多少行外星人横队
@@ -114,7 +119,7 @@ def get_number_rows(game_setting,ship_height,alien_height):
 更新处理子弹移动轨迹
 :return
 """
-def update_bullets(bullets):
+def update_bullets(game_setting,screen,ship,bullets:Group,aliens:Group):
     # 子弹的飞行轨迹
     bullets.update()
 
@@ -123,6 +128,15 @@ def update_bullets(bullets):
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)
         # print(len(bullets))
+
+    #检查是否有子弹击中了外星人
+    collision = pygame.sprite.groupcollide(bullets,aliens,False,True)
+
+    #如果外星人全部被击落，则重新生成新的一群外星人
+    if len(aliens) == 0:
+        bullets.empty()
+        create_fleet(game_setting,screen,aliens,ship)
+
 
 """
 填充子弹，射击
