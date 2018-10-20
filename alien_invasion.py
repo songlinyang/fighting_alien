@@ -46,6 +46,8 @@ def run_game():
         ship.update(speed=game_setting.ship_speed_factor)
         #更新子弹飞行轨迹
         gf.update_bullets(bullets=bullets)
+        #更新外星人的移动轨迹
+        gf.update_aliens(game_setting=game_setting,aliens=aliens)
         #每次循环时都重绘屏幕
         gf.update_screen(screen=screen,game_setting=game_setting,ship=ship,bullets=bullets,aliens=aliens)
 

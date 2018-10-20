@@ -32,3 +32,14 @@ class Setting():
         #限制子弹的数量
         self.bullets_allowed = 3
 
+        """
+        外星人的设置
+        """
+        #外星飞船的左右移动速度
+        self.alien_speed_factor = 1
+        #外星飞船向下移动速度
+        self.fleet_drop_speed = 10
+        #控制外星飞船向右还是左移动，向右为：1，向左为：-1,默认向右移动
+        self.fleet_direction = 1
+
+

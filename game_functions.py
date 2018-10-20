@@ -77,9 +77,7 @@ def create_fleet(game_setting:Setting,screen,aliens,ship):
     aliens_rows = get_number_rows(game_setting,ship.rect.height,alien.rect.height)
     for row in range(aliens_rows):
         for number in range(alien_number):
-            print("第",row,"行",number)
             create_alien(game_setting,screen,number,aliens,row)
-
 
 """
 计算出外星人个数
@@ -89,7 +87,7 @@ def get_number_aliens(game_setting,alien_width):
     # 计算出可用的空间，来计算出一行可以放多少外星人
     usable_space = game_setting.screen_width - (alien_width * 2)
     alien_number = int(usable_space / (alien_width * 2))
-    print("外星人数：",alien_number)
+    #print("外星人数：",alien_number)
     return alien_number
 
 
@@ -135,3 +133,33 @@ def fire_bullet(bullets,game_setting,screen,ship):
         # 按一次，新增新子弹
         new_bullet = Bullet(game_setting, screen, ship)
         bullets.add(new_bullet)
+
+"""
+检查控制外星飞船到达边缘时采取相对措施
+"""
+def check_fleet_edges(game_setting:Setting,aliens:Group):
+    for alien in aliens.sprites():
+        if alien.check_edges():
+            #如果为True表示已经抵达边缘
+            change_fleet_direction(game_setting,aliens)
+            break
+
+"""
+改变外星飞船飞行轨迹
+"""
+def change_fleet_direction(game_setting,aliens):
+    for alien in aliens.sprites():
+        alien.rect.y += game_setting.fleet_drop_speed
+    game_setting.fleet_direction *= -1
+
+"""
+更新外星飞船的移动速度
+"""
+def update_aliens(game_setting,aliens):
+    """
+    检查是否有外星人位于屏幕边缘，并更新整群外星人的位置
+    :param aliens:
+    :return:
+    """
+    check_fleet_edges(game_setting,aliens)
+    aliens.update()
